@@ -62,7 +62,7 @@
                 </div>
                 <div class="footCred siimple-link siimple-grid-col siimple-grid-col--5 siimple-grid-col-sm--12">
                     Built by <span class="siimple-tag siimple-tag--pink">Cowboy Killers</span> <br>
-                    Made with 💖in ATL 🍑
+                    Made with 💖 in ATL 🍑
                     <div class="subscribe">
                         <label class="siimple-label">CK Newsletter </label>
                         <!-- <input type="text" class="siimple-input" placeholder="Your email address"> -->
@@ -188,7 +188,7 @@ html
     @media screen and (max-width: 480px)
         .footCred
             text-align: center
-            margin-top: 3em
+            margin-top: 4em
 
     .footLinks
         text-decoration: none
@@ -222,7 +222,7 @@ html
         margin-top: 2em
     @media screen and (max-width: 480px)
         .subscribe
-            margin-top: 1em
+            margin-top: 2em
 
     .subscribeButton
         // margin-left: 1em

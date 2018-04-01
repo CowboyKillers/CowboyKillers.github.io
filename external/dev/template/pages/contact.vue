@@ -54,11 +54,14 @@ export default {
 .container
   display: block
   max-width: 75em
-  // align-items: center
-  // text-align: center
+  align-items: center
+  text-align: center
   margin-left: auto
   margin-right: auto
 
+.siimple-box
+    margin-left: auto
+    margin-right: auto
 .siimple-box--pink
     background-color: #FECADA
 
@@ -69,9 +72,10 @@ export default {
     margin-top: 5em
 @media screen and (max-width: 480px)
     .siimple-form
-        -webkit-transform: scale(.9)
-        -ms-transform: scale(.9)
-        transform: scale(.9)
+        margin-top: 3em
+        -webkit-transform: scale(.8)
+        -ms-transform: scale(.8)
+        transform: scale(.8)
         transition: all 0.3s ease
     .siimple-box-subtitle
         font-size: 25px
