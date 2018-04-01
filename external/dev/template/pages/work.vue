@@ -93,11 +93,17 @@ a.title
 .projectCard
   transition: all 0.3s ease-out
   cursor: pointer
-  padding: 1.5em
+  // padding: 1em
+  // margin-left: auto
+  // margin-right: auto
+  .siimple-box
+      margin-left: auto
+      margin-right: auto
   .siimple-h6
       color: #8E8D89
       line-height: 1.5em
       text-align: left
+      margin-left: 1em
   .siimple-btn
       margin-top: 2em
   .siimple-btn--pink

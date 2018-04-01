@@ -152,6 +152,8 @@ a.title
     align-items: center
 .siimple-tip
     margin-top: 10em
+    margin-left: auto
+    margin-right: auto
 @media screen and (max-width: 768px)
     .siimple-tip
         width: 80%

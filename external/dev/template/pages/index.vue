@@ -4,13 +4,15 @@
 
         <br><br><br>
         <div class="siimple-grid-row">
-            <div class="siimple-grid-col siimple-grid-col--7">
+            <div class="siimple-grid-col siimple-grid-col--7 siimple-grid-col-md--12 siimple-grid-col-sm--12">
                 <div class="myH3 siimple-h3">
                     <a class="title">Cowboy Killers</a> is a media-driven, design and innovation studio based in Atlanta 🍑
                 </div>
                 <br><br><br><br>
-                <div class="siimple-tip siimple-tip--red siimple-tip--heart">
-                    Check out some of the products we're building below:
+                <div class="customTip">
+                    <div class="siimple-tip siimple-tip--red siimple-tip--heart">
+                        Check out some of the products we're building below:
+                    </div>
                 </div>
             </div>
             <div class="siimple-grid-col siimple-grid-col--5">
@@ -20,15 +22,11 @@
             </div>
         </div>
 
-        <!-- <div class="siimple-tip siimple-tip--red siimple-tip--heart">
-            Check out some of the products we're building below:
-        </div> -->
-
 
         <div class="projectRow">
             <div class="siimple-grid-row">
                 <div class="projectCard siimple-grid-col siimple-grid-col--6 siimple-grid-col-md--12">
-                    <div class="siimple-box siimple-box--blue">
+                    <div class="firstBox siimple-box siimple-box--blue">
                         <div class="siimple-box-title" style="margin-top: 70px;">BlockFantasy</div>
                         <div class="siimple-box-title">
                             <img src="../assets/BF.svg" height="100" style="margin-top: 40px; margin-bottom: 40px">
@@ -38,7 +36,6 @@
                     <div class="siimple-h6">Fantasy Sports staking built on <br> Ethereum smart contracts</div>
                 </div>
                 <div class="projectCard siimple-grid-col siimple-grid-col--6 siimple-grid-col-md--12">
-                    <!-- <br><br><br><br> -->
                     <div class="stagger siimple-box siimple-box--purple">
                         <div class="siimple-box-title" style="margin-top: 70px; color: #B493F2;">BlockBattle</div>
                         <div class="siimple-box-title">
@@ -108,19 +105,24 @@ a.title
     vertical-align: middle
     text-align: center
     font-weight: bold
-    width: 34em
-    height: 3em
-    left: 4.5em
+    // max-width: 34em
+    // height: 3em
+    // left: 4.5em
     // top: 5em
     -webkit-transform: scale(1.2)
     -ms-transform: scale(1.2)
     transform: scale(1.2)
     transition: all 0.3s ease
+.customTip
+    margin-left: 4.5em
+    padding-right: 4.5em
 
 .siimple-box
     align-items: center
     text-align: center
-    margin-top: 5em
+    // margin-top: 5em
+    margin-left: auto
+    margin-right: auto
 
 .siimple-box--blue
     background-color: #B0F2FC
@@ -138,16 +140,20 @@ a.title
     max-width: 63em
     margin-left: auto
     margin-right: auto
-    margin-top: 4em
+    margin-top: 10em
+@media screen and (max-width: 768px)
+    .projectRow
+        margin-top: 4em
 
 .projectCard
     transition: all 0.3s ease-out
     cursor: pointer
-    padding: 1.5em
+    // padding: 1.5em
     .siimple-h6
         color: #8E8D89
         line-height: 1.5em
         text-align: left
+        margin-left: 1em
 .projectCard:hover
     -webkit-transform: scale(1.05)
     -ms-transform: scale(1.05)
