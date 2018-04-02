@@ -123,6 +123,7 @@ a.title
 .myH3
     text-align: left
     margin-top: 1em
+    padding-left: .5em
     line-height: 2em
     cursor: pointer
 .helperPic
