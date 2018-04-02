@@ -118,17 +118,17 @@ export default {
               document.getElementById('work').className = 'siimple-tabs-tab';
               document.getElementById('contact').className = 'siimple-tabs-tab';
           }
-          if (this.path == '/about') {
+          if (this.path == '/about' || this.path == '/about/') {
               document.getElementById('about').className = 'siimple-tabs-tab siimple-tabs-tab--selected';
               document.getElementById('work').className = 'siimple-tabs-tab';
               document.getElementById('contact').className = 'siimple-tabs-tab';
           }
-          if (this.path == '/work') {
+          if (this.path == '/work' || this.path == '/work/') {
               document.getElementById('about').className = 'siimple-tabs-tab';
               document.getElementById('work').className = 'siimple-tabs-tab siimple-tabs-tab--selected';
               document.getElementById('contact').className = 'siimple-tabs-tab';
           }
-          if (this.path == '/contact') {
+          if (this.path == '/contact' || this.path == '/contact/') {
               document.getElementById('about').className = 'siimple-tabs-tab';
               document.getElementById('work').className = 'siimple-tabs-tab';
               document.getElementById('contact').className = 'siimple-tabs-tab siimple-tabs-tab--selected';
