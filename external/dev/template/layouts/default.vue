@@ -3,14 +3,14 @@
       <!-- Nav Bar -->
       <div class="siimple-grid-row">
           <div class="ckNav siimple-navbar">
-                <div class="siimple-grid-col siimple-grid-col--6 siimple-grid-col-md--4 siimple-grid-col-sm--2">
+                <div class="siimple-grid-col siimple-grid-col--6 siimple-grid-col-md--4 siimple-grid-col-sm--1">
                     <div class="siimple-layout--left">
                         <a class="siimple-navbar-title">
                             <img src="../assets/logo.png" height="40" @click='pushHome'>
                         </a>
                     </div>
                 </div>
-                <div class="siimple-grid-col siimple-grid-col--6 siimple-grid-col-md--8 siimple-grid-col-sm--10">
+                <div class="siimple-grid-col siimple-grid-col--6 siimple-grid-col-md--8 siimple-grid-col-sm--11">
                     <div class="siimple-layout--right">
                         <div id='about' class="siimple-tabs-tab" @click='pushAbout'>
                             About
