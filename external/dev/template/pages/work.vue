@@ -1,5 +1,5 @@
 <template>
-    <section class="container">
+    <section v-if='!caseOn' class="container">
         <br><br><br>
 
         <div class="siimple-grid-row">
@@ -21,7 +21,7 @@
                         <div class="siimple-box-detail" style="color: #000;">( alpha build )</div>
                     </div>
                     <div class="siimple-h6">Fantasy Sports staking built on <br> Ethereum smart contracts</div>
-                    <div class="siimple-btn siimple-btn--pink siimple-btn--disabled">
+                    <div class="siimple-btn siimple-btn--pink" @click='pushBF'>
                         Case Study <icon name="arrow-right" scale=".5" style="margin-left: 2px"></icon>
                     </div>
                 </div>
@@ -41,14 +41,43 @@
                 </div>
             </div>
         </div>
-
     </section>
+    <section v-else><nuxt-child/></section>
 </template>
 
 <script>
 
 export default {
-    scrollToTop: true
+    scrollToTop: true,
+    data () {
+        return {
+          caseOn: false
+        }
+    },
+    mounted () {
+        // fetch the data when the view is created and the data is
+        // already being observed
+        this.checkRoute()
+    },
+    watch: {
+        // call again the method if the route changes
+        '$route': 'checkRoute'
+    },
+    methods: {
+      pushBF () {
+          this.$router.push({path: '/work/BlockFantasy'})
+          console.log('pushed to BlockFantasy page');
+      },
+      checkRoute () {
+          if (this.$route.path == '/work/BlockFantasy' || this.$route.path == '/work/BlockFantasy/') {
+              this.caseOn = true
+          } else if (this.$route.path == '/work/BlockBattle' || this.$route.path == '/work/BlockBattle/') {
+              this.caseOn = true
+          } else {
+              this.caseOn = false
+          }
+      }
+    }
 }
 </script>
 

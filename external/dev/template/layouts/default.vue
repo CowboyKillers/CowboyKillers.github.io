@@ -61,7 +61,10 @@
                     <icon class="social" name="telegram" style="color: #39A9DE;"></icon> -->
                 </div>
                 <div class="footCred siimple-link siimple-grid-col siimple-grid-col--5 siimple-grid-col-sm--12">
-                    Built by <span class="siimple-tag siimple-tag--pink">Cowboy Killers</span> <br>
+                    Built by
+                    <a href="http://cowboykillers.io/">
+                        <span class="siimple-tag siimple-tag--pink">Cowboy Killers</span>
+                    </a> <br>
                     Made with 💖 in ATL 🍑
                     <div class="subscribe">
                         <label class="siimple-label">CK Newsletter </label>
@@ -123,7 +126,7 @@ export default {
               document.getElementById('work').className = 'siimple-tabs-tab';
               document.getElementById('contact').className = 'siimple-tabs-tab';
           }
-          if (this.path == '/work' || this.path == '/work/') {
+          if (this.path == '/work' || this.path == '/work/' || this.path == '/work/BlockFantasy' || this.path == '/work/BlockFantasy/') {
               document.getElementById('about').className = 'siimple-tabs-tab';
               document.getElementById('work').className = 'siimple-tabs-tab siimple-tabs-tab--selected';
               document.getElementById('contact').className = 'siimple-tabs-tab';

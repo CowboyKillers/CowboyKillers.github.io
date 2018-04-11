@@ -45,7 +45,8 @@ module.exports = {
     '@/node_modules/siimple/scss/_all.scss'
   ],
   plugins: [
-      { src: '~plugins/vue-awesome', ssr: false }
+      { src: '~plugins/vue-awesome', ssr: false },
+      { src: '~plugins/ga', ssr: false }
   ],
   router: {
     scrollBehavior: function (to, from, savedPosition) {
