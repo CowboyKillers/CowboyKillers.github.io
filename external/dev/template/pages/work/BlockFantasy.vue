@@ -11,7 +11,7 @@
                     <blockquote class="quote siimple-blockquote">
                         "BlockFantasy is a fantastic example of how to implement smart-contracts-as-a-service in a user friendly way"
                     </blockquote>
-                    <div class="myH5 siimple-h5">Mark Zuckerberg - <a class="title">Facebook</a></div>
+                    <div class="myH5 siimple-h5">Jeremy Atkins - <a class="title">Vumi</a></div>
                 </div>
                 <div class="siimple-grid-col siimple-grid-col--5 siimple-grid-col-md--12">
                     <img class="helperPic" src="../../assets/BlockFantasy-Perspective.png">

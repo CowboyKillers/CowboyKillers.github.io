@@ -21,7 +21,7 @@
                         <div class="siimple-box-detail" style="color: #000;">( alpha build )</div>
                     </div>
                     <div class="siimple-h6">Fantasy Sports staking built on <br> Ethereum smart contracts</div>
-                    <div class="siimple-btn siimple-btn--pink" @click='pushBF'>
+                    <div class="siimple-btn siimple-btn--pink siimple-btn--disabled">
                         Case Study <icon name="arrow-right" scale=".5" style="margin-left: 2px"></icon>
                     </div>
                 </div>
