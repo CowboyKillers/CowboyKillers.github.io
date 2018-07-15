@@ -20,21 +20,21 @@
                           <img class="logo" src="../assets/ash.png">
                         </a>
                         <div class="siimple-h5">Ash Bhimasani</div>
-                        <span class="positionTag siimple-tag siimple-tag--purple">CCO & COO</span>
+                        <span class="positionTag siimple-tag siimple-tag--purple">Co-Founder</span>
                     </div>
                 </div>
                 <div class="siimple-grid-col siimple-grid-col--4 siimple-grid-col-md--6 siimple-grid-col-sm--12">
                     <div class="siimple-tip siimple-tip--pink">
                         <img class="logo" src="../assets/zac.png">
                         <div class="siimple-h5">Zac Cheshire</div>
-                        <span class="positionTag siimple-tag siimple-tag--purple">CEO</span>
+                        <span class="positionTag siimple-tag siimple-tag--purple">Co-Founder</span>
                     </div>
                 </div>
                 <div class="siimple-grid-col siimple-grid-col--4 siimple-grid-col-md--6 siimple-grid-col-sm--12">
                     <div class="siimple-tip siimple-tip--blue">
                         <img class="logo" src="../assets/jack.png">
                         <div class="siimple-h5">Jack Bonaguro</div>
-                        <span class="positionTag siimple-tag siimple-tag--purple">CTO</span>
+                        <span class="positionTag siimple-tag siimple-tag--purple">Co-Founder</span>
                     </div>
                 </div>
             </div>
